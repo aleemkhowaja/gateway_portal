@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                        
+    
+    
+    
+    
+    <wb-module deploy-name="imal_gateway_portal">
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources_gateway_portal"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service_client_common_src"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service_client_common_resources"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service_client_common_src_business"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service_client_common_resources_business"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/library_src"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/portal_common_resources"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/portal_common_src"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/portal_common_src_business"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/portal_common_resources_business"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/reporting_portal_common_src"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/reporting_portal_common_resources"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/reporting_services_common_src"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/reporting_services_common_resources"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/gateway_services_common_src"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/gateway_services_common_resources"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/gateway_portal_common_resource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/gateway_portal_common_src"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/gateway_service_client_common_src"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/gateway_service_client_common_resource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/portal_common_resources_JQ_3_3_1"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/portal_common_src_JQ_3_3_1"/>
+                                                
+        
+        
+        
+        
+        <property name="context-root" value="imal_gateway_portal"/>
+                                                
+        
+        
+        
+        
+        <property name="java-output-path" value="/imal_gateway_portal/build/classes"/>
+                                            
+    
+    
+    
+    
+    </wb-module>
+                    
+
+
+
+
+</project-modules>

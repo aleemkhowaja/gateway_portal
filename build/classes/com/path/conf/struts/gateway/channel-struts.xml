@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="channel" namespace="/path/channel" extends="path-default">
+		<action name="ChannelListAction_*" class="channelListAction" method="{1}">
+				<result name="success" type="json"> 
+					<param name="ignoreHierarchy">false</param> 
+				</result>
+		</action>
+		<action name="ChannelMaintAction_*" class="channelMaintAction" method="{1}">
+				<result name="channelList">/WEB-INF/pages/gateway/channel/ChannelList.jsp</result>
+				<result name="channelMaint">/WEB-INF/pages/gateway/channel/ChannelMaint.jsp</result>
+				<result name="success" type="json"> 
+					<param name="ignoreHierarchy">false</param> 
+				</result>
+				<result name="error" type="json">
+					<param name="ignoreHierarchy">false</param>
+				</result>
+		</action>
+		
+		<action name="ChannelStatusAction_*" class="channelStatusAction" method="{1}">
+				<result name="success" type="json"> 
+					<param name="ignoreHierarchy">false</param> 
+				</result>
+		</action>
+		
+		<action name="QueryLookupAction_*" class="queryLookupAction" method="{1}">
+				<result name="success" type="json"> 
+					<param name="ignoreHierarchy">false</param> 
+				</result>
+		</action>
+
+	</package>
+</struts>

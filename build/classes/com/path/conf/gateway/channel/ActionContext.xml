@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="channelListAction" class="com.path.gateway.actions.channel.ChannelListAction" scope="prototype" parent="baseAction">
+	 	<property name="channelBO" ref="channelBO"></property>
+	</bean>
+	
+	<bean id="channelMaintAction" class="com.path.gateway.actions.channel.ChannelMaintAction" scope="prototype" parent="baseAction">
+	 	<property name="channelBO" ref="channelBO"></property>
+	</bean>
+	
+	<bean id="queryLookupAction" class="com.path.gateway.actions.channel.lookups.template.QueryLookupAction" scope="prototype" parent="baseAction">
+	 	<property name="channelBO" ref="channelBO"></property>
+	</bean>
+
+	<bean id="channelStatusAction" class="com.path.gateway.actions.channel.ChannelStatusAction" scope="prototype" parent="baseAction">
+	</bean>
+
+
+</beans>
